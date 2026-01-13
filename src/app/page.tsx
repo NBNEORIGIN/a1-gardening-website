@@ -84,7 +84,7 @@ export default function Home() {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-green-50 to-green-100 py-20 px-4 min-h-screen flex items-start pt-16">
+      <section className="relative bg-gradient-to-br from-green-50 to-green-100 py-20 px-4 min-h-screen flex items-start pt-8">
         {/* Background Logo */}
         <div className="absolute inset-0 opacity-10 z-0">
           <Image
