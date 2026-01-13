@@ -101,7 +101,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-0 leading-tight">
             Professional Gardening Services
           </h1>
-          <p className="text-xl text-green-700 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-green-700 mb-4 max-w-2xl mx-auto leading-relaxed">
             Expert lawn mowing, hedge trimming, and general gardening services across Northumberland
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
