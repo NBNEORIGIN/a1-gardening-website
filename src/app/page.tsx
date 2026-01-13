@@ -98,7 +98,7 @@ export default function Home() {
         
         {/* Content Overlay */}
         <div className="relative z-10 max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-4 leading-tight">
+          <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-2 leading-tight">
             Professional Gardening Services
           </h1>
           <p className="text-xl text-green-700 mb-16 max-w-2xl mx-auto leading-relaxed">
