@@ -86,13 +86,13 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-50 to-green-100 py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="mb-8">
+          <div className="mb-8 opacity-20">
             <Image
               src="/main_logo.svg"
               alt="A1 Gardening Services"
-              width={1200}
-              height={400}
-              className="mx-auto w-full max-w-4xl h-auto"
+              width={1400}
+              height={300}
+              className="mx-auto w-full h-auto object-contain"
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-6">
