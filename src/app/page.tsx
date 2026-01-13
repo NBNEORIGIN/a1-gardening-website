@@ -6,6 +6,81 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
+      {/* Moving Banner */}
+      <div className="bg-green-800 text-white py-2 overflow-hidden">
+        <div className="flex animate-scroll whitespace-nowrap">
+          <div className="flex items-center space-x-8 px-4">
+            <span className="flex items-center gap-2">
+              <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
+              <span className="font-semibold">5.0 Google Rating</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>📞</span>
+              <span>Call: 07366 472856</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>✉️</span>
+              <span>chris@a1g.co.uk</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>🕐</span>
+              <span>Open 24 Hours</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>📍</span>
+              <span>Serving Northumberland</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>✅</span>
+              <span>Fully Insured</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>🏆</span>
+              <span>Professional Service</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>💚</span>
+              <span>Free Quotes Available</span>
+            </span>
+          </div>
+          {/* Duplicate for seamless loop */}
+          <div className="flex items-center space-x-8 px-4">
+            <span className="flex items-center gap-2">
+              <span className="text-yellow-400">⭐⭐⭐⭐⭐</span>
+              <span className="font-semibold">5.0 Google Rating</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>📞</span>
+              <span>Call: 07366 472856</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>✉️</span>
+              <span>chris@a1g.co.uk</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>🕐</span>
+              <span>Open 24 Hours</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>📍</span>
+              <span>Serving Northumberland</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>✅</span>
+              <span>Fully Insured</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>🏆</span>
+              <span>Professional Service</span>
+            </span>
+            <span className="flex items-center gap-2">
+              <span>💚</span>
+              <span>Free Quotes Available</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      
       <Header />
       
       {/* Hero Section */}
@@ -15,9 +90,9 @@ export default function Home() {
             <Image
               src="/main_logo.svg"
               alt="A1 Gardening Services"
-              width={200}
-              height={200}
-              className="mx-auto"
+              width={1200}
+              height={400}
+              className="mx-auto w-full max-w-4xl h-auto"
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-6">
@@ -51,13 +126,13 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="mb-4">
+              <div className="mb-4 aspect-w-16 aspect-h-12">
                 <Image
                   src="/photos/mow_lawn.webp"
                   alt="Lawn Mowing"
-                  width={300}
-                  height={200}
-                  className="rounded-lg mx-auto"
+                  width={400}
+                  height={300}
+                  className="rounded-lg mx-auto w-full h-64 object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-green-800 mb-2">Lawn Mowing</h3>
@@ -66,13 +141,13 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center">
-              <div className="mb-4">
+              <div className="mb-4 aspect-w-16 aspect-h-12">
                 <Image
                   src="/photos/trim_hedge.webp"
                   alt="Hedge Trimming"
-                  width={300}
-                  height={200}
-                  className="rounded-lg mx-auto"
+                  width={400}
+                  height={300}
+                  className="rounded-lg mx-auto w-full h-64 object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-green-800 mb-2">Hedge Trimming</h3>
@@ -81,13 +156,13 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center">
-              <div className="mb-4">
+              <div className="mb-4 aspect-w-16 aspect-h-12">
                 <Image
                   src="/photos/gardener.webp"
                   alt="General Gardening"
-                  width={300}
-                  height={200}
-                  className="rounded-lg mx-auto"
+                  width={400}
+                  height={300}
+                  className="rounded-lg mx-auto w-full h-64 object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-green-800 mb-2">General Gardening</h3>
@@ -140,38 +215,6 @@ export default function Home() {
                 className="rounded-lg shadow-lg"
               />
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Gallery Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-green-900 mb-12">
-            Our Work
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Image
-              src="/photos/stock_images/AdobeStock_1540752058.jpeg"
-              alt="Garden Project 1"
-              width={400}
-              height={300}
-              className="rounded-lg shadow-lg"
-            />
-            <Image
-              src="/photos/stock_images/AdobeStock_521805662.jpeg"
-              alt="Garden Project 2"
-              width={400}
-              height={300}
-              className="rounded-lg shadow-lg"
-            />
-            <Image
-              src="/photos/stock_images/AdobeStock_369082214.jpeg"
-              alt="Garden Project 3"
-              width={400}
-              height={300}
-              className="rounded-lg shadow-lg"
-            />
           </div>
         </div>
       </section>
