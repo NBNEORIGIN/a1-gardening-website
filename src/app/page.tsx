@@ -98,10 +98,10 @@ export default function Home() {
         
         {/* Content Overlay */}
         <div className="relative z-10 max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-12">
+          <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-4 leading-tight">
             Professional Gardening Services
           </h1>
-          <p className="text-xl text-green-700 mb-16 max-w-2xl mx-auto">
+          <p className="text-xl text-green-700 mb-16 max-w-2xl mx-auto leading-relaxed">
             Expert lawn mowing, hedge trimming, and general gardening services across Northumberland
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
