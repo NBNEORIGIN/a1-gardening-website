@@ -85,17 +85,6 @@ export default function Home() {
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-green-50 to-green-100 py-20 px-4 min-h-screen flex items-end pb-32">
-        {/* Background Logo */}
-        <div className="absolute inset-0 opacity-10 z-0">
-          <Image
-            src="/main_logo.svg"
-            alt="A1 Gardening Services"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
-        
         {/* Content Overlay */}
         <div className="relative z-10 max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-green-900 mb-0 leading-tight">
